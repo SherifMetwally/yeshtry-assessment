@@ -1,0 +1,19 @@
+.categories-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.categories--offers {
+    color: #F11133;
+}
+
+.categories-container > div > h3 {
+    padding: 3px;
+    white-space: nowrap;
+    font-size:1em;
+    
+}
+

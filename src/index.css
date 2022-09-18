@@ -1,0 +1,41 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width:70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+

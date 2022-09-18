@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #FFF100;
+}
+
+.navbar--than{
+    padding: 0 20px;
+}
+
+.navbar--container {
+    padding: 5px;
+    align-items: center;
+
+  }
+
+  .navbar--dashes {
+    padding: 0 10px;
+  }
+
+  .notification-message {
+    margin: 0 1px;
+  }
+
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .navbar--icon {
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  @media only screen and (max-width: 1470px) {
+    .span-links {
+      display: none;
+    }
+
+    .notification-message {
+      display: none;
+    }
+  }

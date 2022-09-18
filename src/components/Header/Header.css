@@ -1,0 +1,86 @@
+.header--container {
+    padding: 15px;
+    align-items: center;
+    font-size: 16pt;
+}
+
+.header--search {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5004362463951111px solid #D8D8D8;
+    border-radius: 24px;
+    opacity: 1;
+    padding: 10px;
+    width: 100%;
+    text-indent: 30px;
+    font-weight: bolder;
+    color: black;
+    flex: 1;
+}
+
+.header--search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  .header--search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  .header--search::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+
+.header--search-icon{
+    width: 32px; height: 24px;
+    padding: 0.4rem;
+    position: absolute;
+}
+
+.header--search-bar{
+    display: inline-flex;
+
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30%;
+}
+
+.header--store {
+    padding: 0 10px;
+}
+
+.navbar-links {
+    font-size: 0.7em;
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  width: 1.3em;
+  height: 1.3em;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #FFF100;
+  position: absolute;
+  margin-left: 2.3vw;
+  margin-bottom: 0.8vw;
+  font-size: 0.7em;
+}
+
+
+@media only screen and (max-width: 895px) {
+    .header--links {
+      display: none;
+    }
+
+    .notification-message {
+      display: none;
+    }
+
+    /* .header--container {
+        flex-wrap: wrap;
+    } */
+  }
+

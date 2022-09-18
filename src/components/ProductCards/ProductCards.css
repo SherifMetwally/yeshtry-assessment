@@ -1,0 +1,25 @@
+.purple {
+    color:#542E90 ;
+}
+
+.similar-products {
+    flex-direction: column;
+    
+}
+
+h2  {
+    margin-bottom: 0px;
+}
+
+.similar-paragraph {
+    color:#575756; 
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+.products-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 2em 0em;
+}
